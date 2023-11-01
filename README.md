@@ -13,10 +13,22 @@ cd && rm -rf quickstart-archaeologist
 git clone https://github.com/sarcophagus-org/quickstart-archaeologist && cd quickstart-archaeologist
 
 cp .env.sample .env
+nano .env 
 ```
-#Now, we have a new version of ".env" file, we will fill it with our old info and there is some new settings in it. we will use etherium mainnet and we should pick chain id as "1"
+#Now, we have a new version of ".env" file, we will fill it with our old info and there is some new settings in it. we will use etherium mainnet wss connection.Simply, register an infura account from " app.infura.io" no card needed and free for daily 100k request. Then get your wss url from your dashboard.
+[infura dashboad](
 
-#Another diffirence is, we were using http connection before, now we will use wss connection. You should go to your provider (like infura,alch...) and get the eth-mainnet "web socket" url. like wss.mainnet.infura/ws/v3...
+
+#Try to fill all lines with your informations like on the photo
 
 
+![new version .env file](https://github.com/flechemano/For-top-100-nodes/blob/main/Screenshot_20231101-125946.jpg)
+
+#After we fill the ".env" file, correctly ctrl + x and y
+#Also,we will use new docker compose command to pull and start to node
+
+```console
+
+COMPOSE_PROFILES=service NETWORK=mainnet docker compose pull
+COMPOSE_PROFILES=service NETWORK=mainnet docker compose up -d
 
