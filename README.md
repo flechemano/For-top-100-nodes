@@ -1,7 +1,7 @@
 
 <h1 align="center"> For-top-100-nodes</h1>
 
-> If your node is down already, follow this steps to make it online back, without paying any gas fee
+> If your node is down already, follow this steps to make it back online, without paying any gas fee
 
 > Firstly, be sure that, you back up your "peer-id.json" file (thats located in root/quickstart-archaeologist and old version ".env" (we will use it for some info) 
 
