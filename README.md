@@ -11,7 +11,7 @@ cd && rm -rf quickstart-archaeologist
 
 git clone https://github.com/sarcophagus-org/quickstart-archaeologist && cd quickstart-archaeologist
 
-cp .env.sample .env
+cp .env.example .env
 nano .env 
 ```
 # Now, we have a new version of ".env" file, we will fill it with our old info and there is some new settings in it. we will use etherium mainnet wss connection.Simply, register an infura account from "app.infura.io" ,no card needed and free for daily 100k request. Then get your wss url from your dashboard.
