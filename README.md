@@ -23,7 +23,10 @@ nano .env
 ![new version .env file](https://github.com/flechemano/For-top-100-nodes/blob/main/Screenshot_20231101-144820.jpg)
 
 # After we fill the ".env" file correctly, "ctrl x and y" to save.
-
+# copy your old .peerid.json file to your new "quickstart-archaeologist" folder.
+```console
+cp peer-id.json /root/quickstart-archaeologist
+```
 # Also,we will use new docker compose command to pull and start to node
 
 ```console
